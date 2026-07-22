@@ -16,6 +16,15 @@ I build small, sharp developer tools for macOS, the browser, and the web. Based 
 - [leafblower v1.0.6](https://github.com/navopw/leafblower/releases/tag/v1.0.6) - 2026-07-22
 <!-- releases:end -->
 
+#### Stats
+
+On GitHub since 2014 · 2.7k+ contributions (last year) · 100+ followers
+
+<p>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=navopw&show_icons=true&include_all_commits=true&hide_border=true&bg_color=111111&title_color=ffffff&text_color=c9c9c9&icon_color=ffffff&ring_color=ffffff" alt="GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=navopw&layout=compact&hide_border=true&bg_color=111111&title_color=ffffff&text_color=c9c9c9&langs_count=6" alt="Top languages" />
+</p>
+
 #### Stack
 
 **Languages**  
