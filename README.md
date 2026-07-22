@@ -25,4 +25,4 @@ I build small, sharp developer tools for macOS, the browser, and the web. Based 
 
 #### Stack
 
-[![Skills](https://skillicons.dev/icons?i=ts,swift,go,java,react,nextjs,angular,tailwind,nodejs,bun,express,nestjs,flask,fastapi,spring,postgres,mongodb,redis,sqlite,aws,docker,cloudflare,nginx,vercel,githubactions,apple,linux,pytorch,vscode,figma&perline=10&theme=dark)](https://skillicons.dev)
+![Skills](https://skillicons.dev/icons?i=ts,swift,go,java,react,nextjs,angular,tailwind,nodejs,bun,express,nestjs,flask,fastapi,spring,postgres,mongodb,redis,sqlite,aws,docker,cloudflare,nginx,vercel,githubactions,apple,linux,pytorch,vscode,figma&perline=10&theme=dark)
