@@ -28,7 +28,7 @@ jobs:
             tag=$(echo "${json}" | jq -r '.tag_name')
             date=$(echo "${json}" | jq -r '.published_at | split("T")[0]')
             name=$(basename "${repo}")
-            echo "- [${name} ${tag}](https://github.com/${repo}/releases/tag/${tag}) — ${date}" >> /tmp/releases.md
+            echo "- [${name} ${tag}](https://github.com/${repo}/releases/tag/${tag}) - ${date}" >> /tmp/releases.md
           done
           if [ ! -s /tmp/releases.md ]; then
             echo "_No public releases yet._" > /tmp/releases.md
