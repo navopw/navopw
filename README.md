@@ -29,8 +29,6 @@ I build small, sharp developer tools — for macOS, the browser, and the web. Ba
 ![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-111111?style=flat-square&logo=angular&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-111111?style=flat-square&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-111111?style=flat-square&logo=css&logoColor=white)
 
 **Backend**  
 ![Node.js](https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -54,6 +52,8 @@ I build small, sharp developer tools — for macOS, the browser, and the web. Ba
 ![Nginx](https://img.shields.io/badge/Nginx-111111?style=flat-square&logo=nginx&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-111111?style=flat-square&logo=githubactions&logoColor=white)
+![Apple](https://img.shields.io/badge/Apple-111111?style=flat-square&logo=apple&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=white)
 
 **AI / ML**  
 ![OpenAI](https://img.shields.io/badge/OpenAI-111111?style=flat-square&logo=openai&logoColor=white)
@@ -62,10 +62,6 @@ I build small, sharp developer tools — for macOS, the browser, and the web. Ba
 ![Ollama](https://img.shields.io/badge/Ollama-111111?style=flat-square&logo=ollama&logoColor=white)
 
 **Tools**  
-![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-111111?style=flat-square&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=white)
-![Apple](https://img.shields.io/badge/Apple-111111?style=flat-square&logo=apple&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-111111?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-111111?style=flat-square&logo=figma&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-111111?style=flat-square&logo=playwright&logoColor=white)
