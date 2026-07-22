@@ -18,8 +18,6 @@ I build small, sharp developer tools for macOS, the browser, and the web. Based 
 
 #### Stats
 
-On GitHub since 2014 · 2.7k+ contributions (last year) · 100+ followers
-
 <p>
   <img height="165" src="./assets/stats.svg" alt="GitHub stats" />
   <img height="165" src="./assets/top-langs.svg" alt="Top languages" />
