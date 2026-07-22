@@ -1,12 +1,11 @@
 ### Hey, I'm Stan
 
-CEO of [Askrella](https://askrella.de) — a software agency building custom products and open-source tools. Based in Stuttgart.
+Building software and open-source tools. Based in Stuttgart.
 
 ---
 
 #### Currently
 
-- Running **[Askrella](https://github.com/askrella)** — custom software & AI products
 - Shipping side projects when I can steal the time
 
 #### Highlighted work
@@ -23,7 +22,3 @@ CEO of [Askrella](https://askrella.de) — a software agency building custom pro
 #### Stack
 
 `TypeScript` · `Node.js` · `Python` · `Swift` · `AWS` · `Docker` · `React`
-
----
-
-[askrella.de](https://askrella.de) · [github.com/askrella](https://github.com/askrella)
