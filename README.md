@@ -19,8 +19,8 @@ I build small, sharp developer tools for macOS, the browser, and the web. Based 
 #### Stats
 
 <p>
-  <img height="165" src="./assets/stats.svg" alt="GitHub stats" />
-  <img height="165" src="./assets/top-langs.svg" alt="Top languages" />
+  <img height="165" src="./assets/stats.svg?v=2" alt="GitHub stats" />
+  <img height="165" src="./assets/top-langs.svg?v=2" alt="Top languages" />
 </p>
 
 #### Stack
