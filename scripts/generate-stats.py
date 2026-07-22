@@ -15,6 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 USERNAME = os.environ.get("GH_USERNAME", "navopw")
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
+# Owned originally / still yours but under another org
+EXTRA_STAR_REPOS = ("askrella/whatsapp-chatgpt",)
 
 QUERY = """
 query($login: String!) {
@@ -38,6 +40,14 @@ query($login: String!) {
     }
     pullRequests { totalCount }
     issues { totalCount }
+  }
+}
+"""
+
+REPO_STARS_QUERY = """
+query($owner: String!, $name: String!) {
+  repository(owner: $owner, name: $name) {
+    stargazerCount
   }
 }
 """
@@ -162,6 +172,16 @@ def main() -> None:
 
     data = gh_graphql(QUERY, {"login": USERNAME})["user"]
     stars = sum(n["stargazerCount"] for n in data["repositories"]["nodes"])
+    extra_stars: dict[str, int] = {}
+    for full_name in EXTRA_STAR_REPOS:
+        owner, name = full_name.split("/", 1)
+        repo = gh_graphql(REPO_STARS_QUERY, {"owner": owner, "name": name})[
+            "repository"
+        ]
+        if repo is None:
+            continue
+        extra_stars[full_name] = repo["stargazerCount"]
+        stars += repo["stargazerCount"]
     lang_sizes: dict[str, int] = defaultdict(int)
     lang_colors: dict[str, str] = {}
     for repo in data["repositories"]["nodes"]:
@@ -193,6 +213,7 @@ def main() -> None:
         json.dumps(
             {
                 "stars": stats["stars"],
+                "extra_stars": extra_stars,
                 "followers": stats["followers"],
                 "repos": stats["repos"],
                 "contribs_year": stats["contribs"],
